@@ -1,0 +1,1001 @@
+customer_id,age,gender,income,subscription_type,contract_length,payment_method,monthly_usage_hours,customer_service_calls,has_loyalty_card,region,churned
+1,56,Male,75648,Basic,Yearly,Bank Transfer,45,9,No,South,No
+2,69,Male,133537,Basic,Monthly,Cash,43,0,Yes,North,No
+3,46,Male,39516,Basic,Quarterly,Credit Card,13,3,No,West,No
+4,32,Female,142863,Basic,Monthly,Credit Card,13,6,No,South,Yes
+5,60,Male,145005,Premium,Quarterly,Bank Transfer,60,8,No,West,No
+6,25,Male,32396,Standard,Quarterly,PayPal,57,4,No,South,No
+7,38,Male,114082,Premium,Monthly,Bank Transfer,86,1,Yes,West,No
+8,56,Female,49129,Basic,Yearly,Cash,92,6,No,South,No
+9,36,Female,31591,Basic,Monthly,Bank Transfer,52,9,No,East,No
+10,40,Male,41303,Standard,Monthly,Bank Transfer,53,0,Yes,West,No
+11,28,Male,60561,Basic,Quarterly,Cash,86,6,Yes,South,Yes
+12,28,Male,101719,Basic,Quarterly,Bank Transfer,43,5,Yes,South,No
+13,41,Male,148618,Standard,Monthly,Credit Card,83,6,Yes,East,No
+14,53,Female,122108,Basic,Monthly,PayPal,72,9,No,East,No
+15,57,Female,129616,Standard,Monthly,Bank Transfer,72,2,No,East,No
+16,41,Female,116231,Standard,Monthly,Cash,42,2,Yes,West,No
+17,20,Female,37314,Basic,Quarterly,PayPal,90,6,Yes,West,Yes
+18,39,Male,147071,Basic,Monthly,Cash,26,1,No,East,No
+19,19,Male,49623,Standard,Monthly,PayPal,23,0,No,North,Yes
+20,41,Male,97675,Basic,Monthly,PayPal,43,8,No,North,No
+21,61,Female,142992,Basic,Monthly,Bank Transfer,77,8,No,South,No
+22,47,Male,126826,Premium,Monthly,Credit Card,28,6,No,North,No
+23,55,Female,95082,Basic,Quarterly,Bank Transfer,9,6,Yes,South,No
+24,19,Female,113624,Standard,Yearly,Cash,20,2,Yes,West,No
+25,38,Male,135228,Premium,Quarterly,Cash,56,9,No,West,No
+26,50,Male,63130,Basic,Monthly,PayPal,83,1,No,North,No
+27,29,Male,81756,Basic,Yearly,PayPal,39,6,No,West,No
+28,39,Female,127624,Basic,Quarterly,Credit Card,51,8,No,East,No
+29,61,Male,56292,Basic,Quarterly,Bank Transfer,12,0,No,East,Yes
+30,42,Female,141785,Basic,Monthly,Cash,79,3,Yes,North,No
+31,66,Male,116206,Standard,Monthly,PayPal,95,5,No,North,No
+32,44,Female,99274,Basic,Monthly,Credit Card,55,6,Yes,South,No
+33,59,Female,32469,Standard,Monthly,Cash,78,9,Yes,West,No
+34,45,Male,83947,Premium,Monthly,PayPal,11,6,No,South,No
+35,33,Female,52534,Premium,Monthly,Cash,26,9,No,South,No
+36,32,Female,93620,Standard,Monthly,Credit Card,42,1,No,East,No
+37,64,Male,78874,Basic,Quarterly,Credit Card,27,3,No,East,No
+38,68,Female,79708,Standard,Monthly,Cash,11,4,Yes,East,No
+39,61,Male,104553,Standard,Monthly,Bank Transfer,38,0,Yes,East,No
+40,69,Female,98344,Basic,Yearly,Cash,98,0,No,South,No
+41,20,Male,79138,Basic,Yearly,PayPal,43,9,No,East,No
+42,54,Male,84302,Premium,Quarterly,Bank Transfer,19,2,No,West,No
+43,68,Female,77638,Basic,Yearly,PayPal,64,9,No,East,Yes
+44,24,Female,108249,Basic,Monthly,Cash,6,2,No,East,No
+45,38,Female,135865,Basic,Yearly,Bank Transfer,46,7,No,East,No
+46,26,Female,32719,Basic,Monthly,PayPal,42,8,Yes,North,No
+47,56,Female,52890,Premium,Monthly,Cash,92,0,No,West,No
+48,35,Male,107236,Standard,Monthly,Cash,65,1,No,West,No
+49,21,Female,66509,Standard,Monthly,Bank Transfer,99,9,Yes,South,No
+50,42,Male,72534,Basic,Monthly,Cash,72,1,No,South,No
+51,31,Male,132302,Basic,Quarterly,Credit Card,59,3,No,East,No
+52,67,Female,122241,Basic,Quarterly,PayPal,52,1,No,North,Yes
+53,26,Male,48787,Basic,Monthly,PayPal,47,6,Yes,South,No
+54,43,Male,78845,Basic,Monthly,Cash,7,8,No,South,No
+55,19,Male,87932,Standard,Quarterly,Cash,11,6,Yes,East,No
+56,37,Male,122124,Basic,Quarterly,Credit Card,61,5,No,East,No
+57,45,Female,121659,Standard,Monthly,Bank Transfer,68,9,Yes,South,No
+58,64,Male,63062,Basic,Quarterly,Cash,25,0,Yes,South,No
+59,24,Female,105713,Basic,Monthly,Cash,12,9,No,West,No
+60,61,Female,117263,Basic,Monthly,Cash,26,8,No,North,No
+61,25,Male,125756,Premium,Yearly,Cash,12,4,Yes,West,No
+62,64,Female,90461,Premium,Monthly,PayPal,43,4,Yes,South,No
+63,52,Female,105418,Premium,Monthly,Cash,51,5,No,West,No
+64,31,Female,96672,Basic,Yearly,PayPal,37,8,No,West,No
+65,34,Male,64832,Basic,Quarterly,Cash,46,7,No,South,No
+66,53,Female,61966,Standard,Monthly,Bank Transfer,53,7,Yes,East,No
+67,67,Female,102545,Basic,Monthly,Credit Card,88,7,No,South,No
+68,57,Female,42987,Premium,Monthly,Bank Transfer,80,0,Yes,East,No
+69,21,Male,67311,Basic,Quarterly,Cash,13,0,Yes,South,No
+70,19,Female,61575,Basic,Monthly,Cash,89,7,No,South,No
+71,23,Male,93852,Basic,Monthly,Cash,54,4,No,South,Yes
+72,59,Male,31007,Basic,Yearly,Bank Transfer,57,8,No,North,No
+73,21,Male,100981,Standard,Monthly,Cash,4,1,No,East,No
+74,46,Male,106242,Basic,Monthly,Bank Transfer,75,8,No,North,Yes
+75,35,Male,77517,Basic,Monthly,PayPal,96,7,No,South,No
+76,43,Male,140022,Basic,Quarterly,Credit Card,49,8,No,West,No
+77,61,Female,59257,Basic,Monthly,Credit Card,7,3,Yes,North,No
+78,51,Male,117272,Standard,Monthly,Bank Transfer,11,0,Yes,East,No
+79,27,Female,72207,Premium,Quarterly,PayPal,92,0,No,South,Yes
+80,53,Female,43281,Premium,Monthly,Bank Transfer,54,4,No,North,No
+81,31,Male,91246,Standard,Monthly,PayPal,87,1,Yes,West,Yes
+82,48,Female,31435,Basic,Monthly,Cash,45,7,No,North,No
+83,65,Female,128875,Standard,Monthly,PayPal,23,9,Yes,East,Yes
+84,32,Female,130686,Basic,Monthly,PayPal,28,4,No,North,No
+85,25,Female,121357,Basic,Monthly,PayPal,57,4,Yes,West,No
+86,31,Male,56660,Premium,Monthly,Credit Card,26,1,No,West,No
+87,40,Female,35084,Basic,Monthly,PayPal,25,6,No,East,No
+88,57,Male,112197,Premium,Quarterly,Cash,54,7,Yes,West,No
+89,38,Female,43507,Basic,Yearly,Cash,29,9,No,South,Yes
+90,33,Female,102595,Standard,Quarterly,Cash,83,0,No,West,No
+91,62,Male,113807,Standard,Yearly,PayPal,97,1,No,South,No
+92,35,Female,75539,Premium,Monthly,Bank Transfer,36,9,No,North,Yes
+93,64,Female,145953,Standard,Yearly,Bank Transfer,14,3,No,South,No
+94,41,Female,37491,Standard,Monthly,Cash,78,4,Yes,South,No
+95,43,Male,142831,Basic,Yearly,Credit Card,35,1,No,North,No
+96,42,Female,80192,Standard,Yearly,Bank Transfer,30,0,Yes,West,No
+97,62,Male,110395,Basic,Quarterly,PayPal,92,8,Yes,South,No
+98,58,Female,93888,Standard,Yearly,Bank Transfer,17,0,Yes,West,No
+99,46,Male,103609,Standard,Monthly,Cash,67,3,No,North,No
+100,32,Male,39077,Standard,Monthly,Credit Card,80,1,No,East,Yes
+101,62,Female,147440,Basic,Monthly,Bank Transfer,30,3,Yes,West,No
+102,18,Female,50953,Basic,Monthly,Bank Transfer,93,7,Yes,West,No
+103,42,Male,106919,Standard,Monthly,Cash,45,7,No,East,No
+104,24,Male,144682,Basic,Quarterly,Credit Card,79,8,Yes,East,No
+105,26,Female,97889,Basic,Yearly,Credit Card,89,4,Yes,North,Yes
+106,41,Male,53821,Basic,Monthly,Cash,51,6,Yes,West,No
+107,18,Female,67567,Premium,Quarterly,PayPal,47,2,No,West,No
+108,61,Female,145374,Standard,Yearly,Bank Transfer,53,9,No,North,Yes
+109,25,Female,54860,Basic,Yearly,PayPal,64,3,No,West,No
+110,41,Female,51195,Basic,Yearly,Bank Transfer,38,9,No,South,Yes
+111,28,Male,107475,Basic,Monthly,Bank Transfer,64,8,No,South,No
+112,68,Female,120874,Standard,Yearly,PayPal,87,9,No,South,No
+113,34,Male,117266,Standard,Quarterly,Cash,89,9,No,West,No
+114,25,Female,51427,Basic,Monthly,Cash,7,0,No,South,No
+115,52,Male,130732,Basic,Monthly,Bank Transfer,22,1,Yes,South,No
+116,52,Female,57083,Basic,Quarterly,Cash,81,4,Yes,North,No
+117,50,Male,117046,Standard,Monthly,Bank Transfer,82,2,No,North,No
+118,22,Male,87372,Standard,Quarterly,Cash,41,1,No,East,No
+119,59,Female,74064,Basic,Quarterly,Bank Transfer,74,0,No,East,No
+120,56,Female,37813,Basic,Monthly,Cash,10,9,No,East,Yes
+121,58,Female,61598,Basic,Monthly,Credit Card,57,2,No,East,No
+122,45,Female,142718,Premium,Quarterly,PayPal,7,0,Yes,North,No
+123,24,Male,123106,Basic,Monthly,Credit Card,50,0,No,North,Yes
+124,26,Female,57082,Standard,Monthly,PayPal,91,0,No,North,No
+125,25,Male,59241,Standard,Monthly,PayPal,52,7,No,South,No
+126,29,Male,126214,Basic,Monthly,Bank Transfer,33,2,No,South,Yes
+127,51,Female,74569,Basic,Yearly,PayPal,1,0,No,East,No
+128,50,Male,41745,Basic,Monthly,Credit Card,53,6,Yes,South,No
+129,65,Male,56029,Standard,Quarterly,Credit Card,60,9,No,West,No
+130,40,Male,43025,Standard,Monthly,Cash,34,2,Yes,North,No
+131,41,Male,131660,Standard,Monthly,Credit Card,4,7,No,East,No
+132,54,Female,44288,Standard,Quarterly,Cash,17,3,No,East,No
+133,52,Female,119186,Basic,Quarterly,PayPal,4,3,No,West,No
+134,61,Female,36540,Premium,Monthly,Credit Card,43,4,No,South,Yes
+135,57,Female,127768,Standard,Monthly,PayPal,90,5,No,East,Yes
+136,39,Male,111958,Basic,Monthly,Credit Card,4,6,No,South,No
+137,44,Male,98878,Premium,Monthly,Credit Card,1,3,No,South,No
+138,52,Female,71846,Standard,Quarterly,Cash,71,7,No,West,No
+139,18,Female,131148,Standard,Monthly,PayPal,94,5,No,East,Yes
+140,52,Female,105932,Standard,Monthly,Credit Card,50,0,No,South,No
+141,54,Male,47482,Premium,Monthly,Bank Transfer,73,0,Yes,South,Yes
+142,64,Female,53411,Standard,Yearly,PayPal,61,8,No,West,No
+143,31,Female,80975,Basic,Yearly,PayPal,35,9,No,West,Yes
+144,20,Female,90545,Basic,Monthly,PayPal,8,5,Yes,South,Yes
+145,18,Male,142302,Premium,Quarterly,Cash,24,9,Yes,West,No
+146,22,Male,108797,Basic,Monthly,Bank Transfer,83,7,Yes,South,No
+147,43,Male,82307,Basic,Monthly,PayPal,36,6,No,East,No
+148,31,Male,33093,Basic,Quarterly,Credit Card,50,5,No,North,No
+149,56,Male,107258,Basic,Yearly,Credit Card,43,3,No,West,No
+150,44,Male,52042,Standard,Yearly,Cash,27,6,Yes,North,No
+151,26,Male,82930,Premium,Monthly,Credit Card,32,8,No,South,Yes
+152,32,Male,147584,Basic,Monthly,PayPal,78,9,Yes,South,No
+153,32,Female,74413,Basic,Quarterly,Credit Card,18,9,No,South,No
+154,43,Female,143387,Basic,Monthly,PayPal,28,6,No,North,No
+155,59,Male,123623,Premium,Monthly,Credit Card,29,0,Yes,South,Yes
+156,30,Male,127883,Standard,Monthly,Bank Transfer,16,9,No,West,No
+157,68,Female,63756,Basic,Quarterly,Cash,99,8,Yes,East,No
+158,49,Male,83268,Premium,Monthly,Cash,47,3,No,East,No
+159,56,Male,69214,Premium,Monthly,Bank Transfer,59,2,No,West,Yes
+160,66,Male,111871,Premium,Yearly,Bank Transfer,31,3,No,East,Yes
+161,69,Female,58602,Premium,Monthly,Cash,4,3,Yes,North,No
+162,49,Female,83331,Basic,Monthly,Bank Transfer,37,9,Yes,South,No
+163,21,Female,78901,Standard,Monthly,PayPal,17,1,No,South,No
+164,47,Female,129986,Basic,Monthly,Credit Card,39,0,Yes,South,No
+165,54,Female,93416,Premium,Monthly,Cash,48,9,No,North,No
+166,40,Male,62196,Standard,Monthly,Bank Transfer,46,0,No,North,No
+167,56,Female,35626,Standard,Yearly,PayPal,90,7,Yes,North,No
+168,62,Male,37424,Standard,Monthly,Cash,48,1,Yes,West,No
+169,32,Male,42857,Basic,Yearly,Bank Transfer,39,9,No,North,Yes
+170,60,Female,140459,Standard,Monthly,Cash,4,4,No,East,Yes
+171,46,Female,145621,Premium,Monthly,Bank Transfer,30,3,No,West,No
+172,53,Male,49982,Premium,Monthly,Cash,30,7,No,West,Yes
+173,30,Male,106961,Basic,Monthly,PayPal,22,1,No,West,No
+174,49,Male,31980,Basic,Quarterly,PayPal,75,9,Yes,North,Yes
+175,24,Female,78290,Basic,Monthly,Credit Card,66,8,No,West,No
+176,68,Female,56431,Standard,Monthly,Cash,12,6,No,North,No
+177,39,Female,114976,Premium,Yearly,Credit Card,94,6,Yes,North,No
+178,45,Female,137288,Basic,Yearly,Cash,36,0,Yes,West,Yes
+179,19,Female,112711,Standard,Yearly,Bank Transfer,18,1,Yes,South,No
+180,59,Male,144187,Premium,Monthly,Bank Transfer,90,3,Yes,South,No
+181,62,Female,56385,Standard,Quarterly,Credit Card,53,3,No,West,No
+182,23,Male,68158,Standard,Monthly,Cash,71,2,No,South,Yes
+183,45,Male,53019,Standard,Monthly,Credit Card,1,6,Yes,East,No
+184,45,Male,48639,Standard,Monthly,PayPal,58,7,No,East,No
+185,61,Female,115530,Basic,Monthly,Credit Card,90,1,No,North,No
+186,61,Female,129911,Standard,Monthly,Credit Card,87,3,No,South,No
+187,37,Female,51563,Standard,Monthly,Bank Transfer,90,2,No,East,Yes
+188,47,Male,69341,Premium,Yearly,Credit Card,6,1,Yes,West,No
+189,28,Male,145672,Standard,Monthly,Cash,70,5,No,South,No
+190,45,Male,35776,Standard,Monthly,Bank Transfer,44,3,No,East,No
+191,42,Male,66444,Basic,Monthly,Credit Card,72,5,Yes,East,No
+192,56,Male,98916,Basic,Yearly,PayPal,24,1,Yes,West,Yes
+193,50,Male,38711,Basic,Monthly,Credit Card,86,3,Yes,North,No
+194,18,Female,104318,Basic,Monthly,Credit Card,19,5,Yes,West,Yes
+195,44,Female,112970,Standard,Quarterly,Credit Card,18,4,No,North,No
+196,69,Female,142301,Premium,Quarterly,Bank Transfer,95,2,No,East,No
+197,30,Female,115553,Basic,Monthly,Cash,30,7,No,North,No
+198,58,Male,60707,Basic,Quarterly,PayPal,42,6,No,East,No
+199,20,Male,69110,Premium,Quarterly,Credit Card,33,2,No,East,No
+200,56,Female,91788,Basic,Quarterly,Cash,74,5,No,South,No
+201,23,Male,112879,Standard,Monthly,Cash,12,3,No,North,No
+202,25,Female,68827,Standard,Yearly,Bank Transfer,94,4,Yes,North,Yes
+203,44,Female,137188,Standard,Monthly,PayPal,27,4,No,North,Yes
+204,26,Female,35655,Basic,Monthly,Bank Transfer,39,6,No,West,No
+205,54,Male,74859,Basic,Monthly,Cash,9,4,Yes,South,No
+206,50,Female,83625,Standard,Monthly,Cash,21,2,No,South,Yes
+207,68,Female,82098,Standard,Monthly,Cash,76,9,No,South,No
+208,59,Female,45251,Basic,Quarterly,Bank Transfer,29,4,No,West,No
+209,61,Male,30526,Standard,Monthly,PayPal,33,6,No,North,No
+210,41,Male,98760,Basic,Monthly,Credit Card,62,4,No,North,No
+211,32,Female,77837,Standard,Monthly,Bank Transfer,15,4,No,North,No
+212,49,Male,41536,Basic,Monthly,Cash,2,8,No,South,No
+213,49,Male,58541,Premium,Yearly,Bank Transfer,52,2,No,South,No
+214,41,Male,109083,Basic,Monthly,Cash,44,5,No,East,Yes
+215,58,Male,81027,Basic,Monthly,Credit Card,54,0,No,West,No
+216,69,Male,64531,Basic,Monthly,Credit Card,18,9,No,West,No
+217,66,Male,38712,Basic,Monthly,PayPal,3,4,No,South,No
+218,66,Male,134101,Premium,Monthly,Cash,7,7,No,East,No
+219,69,Male,95455,Premium,Quarterly,PayPal,43,4,Yes,North,No
+220,29,Male,104744,Basic,Yearly,PayPal,82,8,Yes,South,No
+221,56,Male,35109,Basic,Monthly,Credit Card,38,5,Yes,West,No
+222,19,Female,79268,Standard,Quarterly,Bank Transfer,37,7,No,West,No
+223,20,Female,130737,Premium,Quarterly,Bank Transfer,58,9,Yes,West,No
+224,66,Male,84615,Standard,Quarterly,PayPal,33,7,Yes,North,No
+225,54,Female,112503,Basic,Monthly,Credit Card,59,2,No,West,No
+226,66,Female,59759,Basic,Monthly,Cash,95,6,No,North,No
+227,34,Male,115708,Standard,Monthly,Bank Transfer,11,6,No,North,No
+228,66,Male,90112,Basic,Quarterly,PayPal,68,9,Yes,North,No
+229,19,Male,132471,Standard,Quarterly,Bank Transfer,82,5,No,South,Yes
+230,19,Female,56589,Basic,Monthly,Bank Transfer,68,6,No,North,No
+231,45,Female,60015,Standard,Monthly,Cash,98,1,No,East,No
+232,40,Male,59009,Basic,Yearly,Credit Card,93,8,No,West,Yes
+233,54,Male,113309,Standard,Quarterly,Cash,88,9,No,South,No
+234,49,Male,92046,Basic,Yearly,Credit Card,22,9,Yes,West,No
+235,50,Female,136661,Standard,Quarterly,Bank Transfer,66,0,Yes,North,No
+236,18,Female,56143,Basic,Monthly,PayPal,44,0,Yes,South,Yes
+237,36,Female,36154,Standard,Monthly,Cash,6,2,No,East,No
+238,19,Female,51804,Standard,Quarterly,Credit Card,42,2,No,North,No
+239,61,Male,71688,Standard,Monthly,Bank Transfer,25,0,No,West,No
+240,43,Male,94288,Standard,Monthly,Credit Card,57,6,Yes,East,No
+241,49,Male,81195,Standard,Quarterly,Credit Card,85,3,No,North,No
+242,23,Male,50581,Premium,Monthly,Credit Card,55,9,No,East,No
+243,49,Female,82648,Basic,Quarterly,Bank Transfer,16,1,No,North,No
+244,21,Female,60087,Premium,Monthly,PayPal,95,9,No,South,No
+245,28,Male,79930,Basic,Yearly,PayPal,14,4,Yes,North,No
+246,34,Male,62981,Basic,Monthly,PayPal,39,5,No,South,Yes
+247,55,Female,99298,Basic,Monthly,Credit Card,28,8,No,North,No
+248,41,Male,76167,Basic,Quarterly,Bank Transfer,96,3,Yes,North,No
+249,22,Female,105304,Standard,Monthly,Credit Card,92,1,Yes,West,No
+250,69,Male,73408,Standard,Quarterly,PayPal,51,4,No,East,Yes
+251,51,Male,69499,Standard,Quarterly,PayPal,49,2,No,East,No
+252,23,Male,82269,Standard,Monthly,Bank Transfer,9,1,No,East,Yes
+253,39,Male,68559,Basic,Monthly,Credit Card,58,0,Yes,North,Yes
+254,28,Male,144126,Basic,Monthly,Cash,45,9,No,North,No
+255,65,Male,104319,Basic,Monthly,Cash,22,1,No,North,No
+256,33,Male,141925,Basic,Yearly,PayPal,32,5,No,South,No
+257,50,Female,125317,Basic,Quarterly,Bank Transfer,69,7,No,South,Yes
+258,26,Female,126347,Basic,Quarterly,Credit Card,87,2,Yes,West,No
+259,23,Female,78787,Standard,Quarterly,Credit Card,69,8,No,North,Yes
+260,33,Female,65488,Standard,Monthly,PayPal,42,8,No,East,No
+261,46,Female,104441,Premium,Yearly,PayPal,53,1,No,East,No
+262,20,Male,104663,Premium,Quarterly,Credit Card,96,7,No,West,No
+263,37,Male,52431,Standard,Quarterly,Credit Card,59,9,No,East,No
+264,53,Female,91681,Basic,Yearly,PayPal,74,4,No,West,Yes
+265,36,Male,93483,Standard,Monthly,Credit Card,39,3,No,North,No
+266,43,Female,79153,Standard,Quarterly,Cash,15,9,No,East,No
+267,20,Female,36368,Basic,Monthly,PayPal,71,4,No,North,No
+268,36,Male,57424,Basic,Monthly,Credit Card,29,3,No,South,No
+269,37,Male,142360,Premium,Monthly,PayPal,3,7,No,East,Yes
+270,49,Male,75004,Basic,Yearly,Bank Transfer,83,3,No,South,No
+271,24,Female,113869,Standard,Yearly,PayPal,10,9,Yes,East,No
+272,69,Male,118652,Standard,Quarterly,PayPal,92,5,No,North,No
+273,58,Female,142755,Basic,Quarterly,Bank Transfer,29,1,Yes,West,Yes
+274,50,Female,86985,Basic,Monthly,Cash,79,4,No,North,Yes
+275,57,Female,80069,Basic,Yearly,Credit Card,35,5,No,North,No
+276,56,Male,82326,Basic,Monthly,Bank Transfer,6,4,No,North,No
+277,35,Male,138737,Basic,Monthly,PayPal,12,1,No,East,No
+278,57,Female,111061,Premium,Monthly,Credit Card,38,6,No,West,Yes
+279,18,Male,53398,Basic,Quarterly,Bank Transfer,77,3,No,South,No
+280,28,Male,128393,Standard,Quarterly,Credit Card,93,7,Yes,North,No
+281,45,Male,80861,Basic,Monthly,Credit Card,19,6,No,East,No
+282,42,Female,105897,Premium,Monthly,Bank Transfer,67,6,Yes,South,No
+283,67,Female,111905,Basic,Quarterly,Credit Card,8,8,No,North,No
+284,40,Male,98577,Basic,Monthly,Cash,8,0,No,South,No
+285,48,Female,95641,Premium,Quarterly,Bank Transfer,84,9,No,North,No
+286,47,Male,39078,Premium,Yearly,Cash,47,5,Yes,South,Yes
+287,59,Male,55003,Basic,Monthly,PayPal,4,5,Yes,South,No
+288,52,Male,92768,Premium,Monthly,Credit Card,51,5,No,West,No
+289,24,Male,81047,Basic,Quarterly,PayPal,85,5,No,West,No
+290,33,Female,101626,Basic,Quarterly,PayPal,67,9,No,North,No
+291,43,Female,87660,Basic,Monthly,Credit Card,45,6,No,East,No
+292,65,Female,134386,Basic,Yearly,Bank Transfer,8,9,No,West,No
+293,69,Male,79786,Standard,Monthly,Credit Card,87,5,Yes,South,No
+294,66,Male,31925,Basic,Monthly,PayPal,16,0,No,West,No
+295,19,Male,113976,Basic,Quarterly,PayPal,77,2,No,West,Yes
+296,18,Female,135221,Standard,Yearly,Bank Transfer,67,1,Yes,North,Yes
+297,65,Male,147832,Standard,Monthly,Credit Card,9,5,No,West,No
+298,29,Female,56015,Basic,Quarterly,PayPal,60,7,Yes,West,Yes
+299,22,Female,63320,Standard,Monthly,Cash,78,2,No,South,No
+300,54,Female,94881,Basic,Monthly,PayPal,77,9,Yes,West,No
+301,49,Female,120827,Standard,Monthly,PayPal,71,7,No,South,No
+302,26,Female,132215,Standard,Yearly,Bank Transfer,15,7,Yes,West,No
+303,58,Female,56289,Premium,Monthly,Cash,71,4,No,West,No
+304,52,Male,33389,Basic,Monthly,PayPal,98,7,No,East,Yes
+305,36,Male,55683,Basic,Monthly,PayPal,41,5,No,West,No
+306,65,Female,43629,Basic,Yearly,Cash,22,4,No,South,No
+307,33,Female,91550,Basic,Quarterly,Credit Card,24,8,No,South,No
+308,20,Male,54826,Basic,Quarterly,Credit Card,44,6,Yes,North,No
+309,37,Female,130734,Premium,Monthly,PayPal,1,7,No,North,No
+310,41,Female,56630,Basic,Quarterly,PayPal,10,0,Yes,East,Yes
+311,50,Male,128762,Basic,Monthly,Credit Card,80,1,No,South,No
+312,41,Female,76163,Standard,Quarterly,Bank Transfer,72,7,No,South,Yes
+313,69,Female,128511,Basic,Yearly,Cash,56,8,No,South,No
+314,28,Female,96435,Standard,Monthly,Cash,89,3,No,East,No
+315,66,Male,41653,Basic,Quarterly,Bank Transfer,50,9,Yes,South,No
+316,25,Male,57961,Basic,Monthly,Bank Transfer,12,9,Yes,North,No
+317,53,Male,111941,Basic,Monthly,Bank Transfer,89,8,Yes,East,Yes
+318,55,Female,104137,Basic,Monthly,Bank Transfer,81,3,No,North,No
+319,57,Female,63662,Premium,Monthly,Bank Transfer,60,9,Yes,North,Yes
+320,37,Male,128818,Basic,Monthly,Bank Transfer,26,9,Yes,East,Yes
+321,52,Female,86446,Standard,Quarterly,Cash,78,9,No,West,No
+322,65,Female,51288,Basic,Monthly,Bank Transfer,41,8,No,West,No
+323,42,Female,125081,Basic,Quarterly,Credit Card,36,6,No,North,No
+324,52,Female,66877,Premium,Monthly,Bank Transfer,23,1,No,West,No
+325,42,Female,141562,Basic,Monthly,Bank Transfer,43,8,Yes,South,No
+326,46,Male,45313,Standard,Quarterly,Cash,6,3,No,East,No
+327,35,Female,110885,Premium,Monthly,Cash,69,7,No,North,Yes
+328,63,Male,102715,Standard,Monthly,Bank Transfer,43,6,Yes,South,No
+329,35,Female,40326,Premium,Quarterly,Cash,25,6,Yes,West,No
+330,19,Male,140091,Basic,Monthly,PayPal,18,7,No,South,No
+331,52,Female,31560,Basic,Monthly,Cash,62,0,No,West,No
+332,33,Male,109148,Basic,Monthly,Cash,13,4,Yes,North,No
+333,58,Female,113186,Standard,Yearly,Cash,43,1,No,South,No
+334,53,Male,56745,Premium,Quarterly,Cash,78,1,No,East,No
+335,50,Female,61890,Basic,Quarterly,Credit Card,28,0,No,North,No
+336,21,Male,50022,Standard,Quarterly,Credit Card,18,4,No,South,No
+337,50,Female,82579,Basic,Monthly,Credit Card,59,1,No,South,No
+338,31,Male,100316,Standard,Monthly,Bank Transfer,60,3,No,West,No
+339,38,Male,113847,Basic,Quarterly,Bank Transfer,63,2,No,North,No
+340,65,Female,58380,Premium,Monthly,PayPal,57,2,No,North,No
+341,37,Female,140198,Standard,Monthly,Credit Card,92,1,No,North,No
+342,25,Male,32356,Basic,Monthly,Bank Transfer,51,5,No,North,No
+343,24,Female,100326,Basic,Monthly,Cash,56,1,No,West,No
+344,20,Male,122447,Basic,Yearly,Cash,27,7,No,East,No
+345,34,Male,144994,Basic,Monthly,Credit Card,32,7,Yes,North,No
+346,50,Male,119899,Basic,Monthly,PayPal,9,4,No,West,No
+347,65,Female,50049,Premium,Monthly,PayPal,96,9,No,East,No
+348,29,Male,105717,Standard,Yearly,Cash,84,6,No,East,No
+349,68,Male,135361,Standard,Monthly,PayPal,92,3,Yes,West,Yes
+350,39,Female,46082,Basic,Monthly,Credit Card,97,0,No,North,No
+351,39,Female,30661,Premium,Quarterly,Cash,68,1,No,East,No
+352,63,Female,67412,Standard,Quarterly,Bank Transfer,46,9,Yes,North,No
+353,47,Female,144015,Basic,Monthly,Bank Transfer,98,9,No,North,No
+354,55,Male,32920,Standard,Monthly,PayPal,67,3,Yes,South,No
+355,55,Male,121194,Standard,Monthly,Cash,26,0,Yes,North,Yes
+356,62,Male,144306,Basic,Monthly,Cash,8,7,No,South,No
+357,68,Male,90315,Basic,Monthly,Bank Transfer,6,8,No,East,No
+358,25,Female,109561,Basic,Monthly,Cash,80,3,No,West,No
+359,44,Male,38946,Basic,Monthly,Cash,24,9,Yes,South,Yes
+360,44,Male,124242,Premium,Monthly,Cash,48,2,No,West,No
+361,51,Female,75500,Premium,Quarterly,PayPal,94,1,Yes,East,No
+362,38,Male,134540,Standard,Yearly,Cash,45,4,Yes,North,No
+363,47,Male,46309,Basic,Quarterly,Credit Card,13,2,Yes,East,No
+364,50,Male,85230,Basic,Monthly,PayPal,69,9,No,West,No
+365,45,Male,141822,Standard,Monthly,Cash,25,6,No,East,No
+366,64,Male,128656,Standard,Yearly,Cash,20,5,No,North,No
+367,50,Male,60027,Basic,Monthly,Credit Card,82,0,No,East,No
+368,22,Female,102541,Standard,Monthly,PayPal,82,7,Yes,North,Yes
+369,65,Female,142340,Premium,Monthly,Bank Transfer,66,1,No,South,No
+370,36,Male,144846,Basic,Quarterly,Bank Transfer,74,4,No,West,No
+371,21,Male,89321,Basic,Quarterly,PayPal,45,8,No,North,No
+372,52,Female,30956,Standard,Monthly,Cash,47,7,Yes,North,No
+373,66,Male,130375,Basic,Monthly,Cash,63,1,No,East,Yes
+374,34,Male,104131,Basic,Yearly,Bank Transfer,76,8,No,South,Yes
+375,61,Male,77908,Basic,Monthly,Bank Transfer,77,4,No,North,No
+376,45,Female,108339,Basic,Quarterly,Bank Transfer,55,9,No,South,No
+377,47,Male,55963,Standard,Quarterly,Credit Card,75,5,Yes,South,No
+378,46,Female,131757,Standard,Quarterly,Bank Transfer,19,2,No,East,No
+379,63,Male,69443,Basic,Monthly,Credit Card,35,2,Yes,North,No
+380,23,Female,129259,Premium,Monthly,PayPal,53,9,No,East,Yes
+381,52,Female,69063,Premium,Monthly,Cash,26,7,No,West,Yes
+382,58,Male,144225,Premium,Yearly,Bank Transfer,14,9,Yes,West,No
+383,54,Female,146400,Basic,Yearly,Cash,45,9,No,North,No
+384,41,Male,110818,Basic,Monthly,Cash,44,1,No,South,No
+385,46,Female,34703,Premium,Monthly,Bank Transfer,88,1,Yes,North,No
+386,66,Male,95128,Standard,Yearly,Bank Transfer,65,4,No,North,No
+387,63,Male,102099,Basic,Quarterly,PayPal,51,5,Yes,West,No
+388,48,Female,55849,Basic,Yearly,Credit Card,43,1,No,West,No
+389,52,Male,61860,Basic,Monthly,Credit Card,86,4,No,South,No
+390,50,Male,61585,Premium,Monthly,Cash,23,6,No,South,Yes
+391,69,Female,52015,Standard,Quarterly,Bank Transfer,56,9,No,North,Yes
+392,38,Male,107539,Basic,Quarterly,PayPal,19,9,No,East,No
+393,49,Male,73585,Basic,Monthly,PayPal,82,7,No,North,No
+394,40,Female,56958,Standard,Monthly,PayPal,76,6,Yes,South,No
+395,50,Female,56017,Premium,Monthly,PayPal,55,7,No,East,No
+396,20,Male,106707,Basic,Monthly,PayPal,92,8,No,West,No
+397,35,Male,75350,Standard,Monthly,Credit Card,92,4,Yes,South,Yes
+398,42,Female,42201,Premium,Yearly,Credit Card,60,4,No,South,No
+399,59,Female,59426,Basic,Monthly,Credit Card,59,9,No,East,No
+400,48,Male,47778,Standard,Quarterly,Bank Transfer,33,3,No,South,No
+401,20,Female,75241,Basic,Monthly,Cash,19,8,Yes,South,No
+402,57,Male,72229,Standard,Quarterly,PayPal,28,4,Yes,South,No
+403,63,Male,116652,Standard,Yearly,Bank Transfer,52,1,Yes,South,No
+404,41,Male,148402,Standard,Monthly,PayPal,49,9,No,South,No
+405,67,Male,78364,Standard,Monthly,Credit Card,37,7,Yes,South,No
+406,49,Male,128833,Basic,Monthly,Bank Transfer,26,6,No,South,No
+407,64,Female,114878,Premium,Monthly,Credit Card,99,7,Yes,South,No
+408,39,Female,87056,Standard,Quarterly,PayPal,98,2,No,West,Yes
+409,40,Female,57490,Basic,Yearly,PayPal,99,3,No,South,Yes
+410,19,Female,49975,Standard,Monthly,Cash,40,4,No,West,No
+411,44,Male,56723,Standard,Monthly,PayPal,80,5,Yes,West,No
+412,59,Male,53279,Basic,Monthly,Credit Card,38,0,No,North,No
+413,19,Male,108301,Premium,Quarterly,PayPal,77,3,Yes,North,No
+414,43,Male,142214,Premium,Monthly,Cash,87,9,No,West,No
+415,34,Female,41561,Basic,Monthly,Cash,54,4,No,West,No
+416,57,Male,137435,Premium,Quarterly,Credit Card,22,6,Yes,South,No
+417,50,Male,96061,Basic,Quarterly,Bank Transfer,16,4,No,North,No
+418,26,Female,118397,Basic,Monthly,PayPal,28,0,No,East,Yes
+419,60,Female,79153,Basic,Quarterly,Cash,35,6,Yes,North,Yes
+420,65,Female,63142,Premium,Monthly,PayPal,60,7,No,West,No
+421,56,Female,56916,Standard,Monthly,PayPal,45,6,Yes,West,No
+422,46,Male,94324,Basic,Yearly,Bank Transfer,46,3,No,South,Yes
+423,59,Male,74965,Basic,Quarterly,Cash,72,7,No,South,Yes
+424,43,Female,34648,Standard,Monthly,PayPal,55,4,Yes,North,No
+425,52,Male,65133,Basic,Monthly,Cash,86,9,No,South,No
+426,67,Male,80677,Premium,Monthly,Credit Card,85,8,No,East,No
+427,42,Male,126059,Premium,Monthly,Credit Card,26,9,No,East,No
+428,41,Female,124588,Standard,Monthly,PayPal,85,4,No,South,No
+429,30,Male,129950,Premium,Monthly,Cash,25,0,No,East,No
+430,24,Female,128317,Basic,Monthly,PayPal,65,8,No,East,No
+431,53,Male,100135,Premium,Quarterly,Cash,6,4,No,North,No
+432,62,Male,65046,Standard,Quarterly,Cash,23,5,No,East,No
+433,37,Male,77064,Standard,Quarterly,Bank Transfer,64,3,No,West,No
+434,18,Female,131459,Basic,Monthly,Bank Transfer,87,5,No,West,Yes
+435,25,Male,136625,Premium,Yearly,Bank Transfer,43,7,No,North,No
+436,63,Female,99350,Basic,Quarterly,PayPal,23,2,No,South,No
+437,33,Female,75893,Basic,Quarterly,Bank Transfer,96,4,No,North,No
+438,31,Female,131520,Basic,Quarterly,Bank Transfer,30,1,No,South,No
+439,29,Male,91272,Standard,Yearly,Credit Card,77,1,No,South,No
+440,68,Male,122152,Standard,Monthly,Cash,18,6,No,South,Yes
+441,40,Male,97649,Standard,Monthly,Cash,87,9,No,South,No
+442,32,Male,94674,Premium,Quarterly,Bank Transfer,79,9,Yes,South,No
+443,45,Female,149044,Basic,Quarterly,Cash,97,9,No,North,No
+444,51,Female,138542,Standard,Quarterly,Credit Card,21,5,No,South,No
+445,19,Female,43760,Basic,Monthly,Credit Card,57,3,No,East,Yes
+446,49,Male,51927,Premium,Monthly,Bank Transfer,23,4,Yes,East,No
+447,40,Female,116475,Premium,Monthly,Credit Card,91,0,Yes,South,Yes
+448,39,Male,91367,Standard,Yearly,Cash,45,6,No,East,No
+449,68,Female,127955,Standard,Monthly,PayPal,44,7,No,West,No
+450,42,Male,42588,Basic,Monthly,Cash,82,8,Yes,North,Yes
+451,39,Male,131678,Basic,Monthly,PayPal,88,7,No,North,No
+452,39,Female,134734,Premium,Monthly,Bank Transfer,47,4,No,South,Yes
+453,66,Female,148154,Basic,Yearly,PayPal,40,2,Yes,South,Yes
+454,69,Female,82233,Basic,Quarterly,Credit Card,51,9,No,West,No
+455,59,Female,74738,Basic,Quarterly,Cash,42,8,No,South,No
+456,23,Male,63397,Premium,Monthly,PayPal,7,5,No,East,No
+457,32,Female,112189,Basic,Quarterly,Cash,50,4,No,West,No
+458,60,Female,106367,Basic,Monthly,Bank Transfer,48,2,No,East,No
+459,54,Female,101260,Standard,Quarterly,Bank Transfer,84,5,No,North,No
+460,50,Male,106619,Premium,Monthly,Credit Card,91,2,No,East,Yes
+461,25,Male,141453,Basic,Monthly,Bank Transfer,6,9,Yes,North,Yes
+462,61,Female,49816,Basic,Quarterly,PayPal,91,5,Yes,East,No
+463,61,Male,72240,Basic,Yearly,Bank Transfer,9,3,No,North,No
+464,22,Female,36276,Basic,Monthly,Credit Card,57,1,No,South,No
+465,56,Male,143939,Basic,Quarterly,Cash,31,7,Yes,East,No
+466,21,Male,134199,Standard,Monthly,Cash,21,3,No,North,No
+467,23,Male,109530,Standard,Monthly,Bank Transfer,90,8,Yes,East,Yes
+468,62,Male,53499,Standard,Monthly,PayPal,40,6,No,West,Yes
+469,49,Female,118576,Basic,Monthly,Credit Card,45,1,No,South,No
+470,69,Female,138856,Premium,Monthly,PayPal,77,3,No,North,No
+471,47,Female,112495,Basic,Monthly,Credit Card,49,4,No,West,No
+472,64,Male,101635,Premium,Monthly,Bank Transfer,87,2,Yes,East,Yes
+473,52,Female,137803,Standard,Yearly,Credit Card,20,8,No,West,No
+474,57,Female,115112,Basic,Monthly,Credit Card,92,4,Yes,East,No
+475,69,Female,65946,Standard,Quarterly,Bank Transfer,17,1,No,South,Yes
+476,33,Male,85204,Basic,Monthly,PayPal,28,2,Yes,West,No
+477,30,Male,81886,Standard,Quarterly,Bank Transfer,41,8,No,South,No
+478,67,Male,101652,Basic,Monthly,Credit Card,66,6,No,North,No
+479,59,Female,45563,Basic,Monthly,Bank Transfer,25,1,No,East,Yes
+480,47,Female,122324,Premium,Monthly,Credit Card,58,8,No,East,No
+481,36,Female,122464,Basic,Monthly,Bank Transfer,41,3,No,South,No
+482,34,Male,131872,Premium,Monthly,Cash,6,8,Yes,South,No
+483,36,Male,39847,Basic,Quarterly,Cash,75,1,Yes,North,No
+484,45,Female,56155,Standard,Yearly,Bank Transfer,38,9,No,West,Yes
+485,43,Male,109671,Standard,Quarterly,PayPal,6,3,Yes,East,No
+486,54,Male,146891,Standard,Quarterly,Credit Card,45,4,Yes,East,No
+487,43,Male,113310,Basic,Monthly,Cash,75,1,No,North,No
+488,40,Male,97278,Basic,Monthly,PayPal,14,9,No,North,No
+489,26,Female,48309,Basic,Monthly,Credit Card,66,0,No,South,Yes
+490,29,Male,30619,Basic,Monthly,Cash,40,6,No,South,No
+491,18,Male,113194,Standard,Monthly,Cash,3,9,No,West,No
+492,18,Male,80108,Premium,Monthly,Bank Transfer,99,0,Yes,North,No
+493,64,Male,64707,Premium,Monthly,Credit Card,97,7,No,West,No
+494,51,Female,50337,Standard,Monthly,PayPal,24,2,No,North,No
+495,49,Female,111537,Standard,Quarterly,PayPal,19,9,No,East,No
+496,65,Male,96504,Standard,Quarterly,PayPal,18,5,Yes,North,No
+497,42,Male,77614,Basic,Monthly,Credit Card,64,6,No,North,No
+498,57,Male,121428,Premium,Yearly,PayPal,88,9,Yes,East,No
+499,62,Male,121155,Standard,Yearly,PayPal,35,0,Yes,North,No
+500,18,Male,30281,Standard,Monthly,PayPal,62,5,Yes,West,Yes
+501,33,Male,57420,Basic,Monthly,Bank Transfer,1,6,No,South,No
+502,56,Female,110896,Basic,Monthly,Bank Transfer,25,5,No,South,No
+503,22,Male,69030,Basic,Yearly,Credit Card,45,3,No,West,No
+504,39,Female,31058,Premium,Yearly,Credit Card,49,0,No,East,No
+505,46,Female,116213,Standard,Monthly,PayPal,98,8,No,North,No
+506,20,Male,106260,Basic,Monthly,Bank Transfer,89,3,Yes,West,No
+507,29,Female,58404,Premium,Monthly,Cash,16,6,Yes,South,No
+508,43,Female,133482,Basic,Monthly,Cash,98,6,No,South,No
+509,33,Female,135284,Basic,Monthly,PayPal,93,1,No,West,No
+510,68,Female,59856,Basic,Yearly,PayPal,19,0,No,South,No
+511,54,Female,39200,Standard,Quarterly,Bank Transfer,23,7,Yes,West,No
+512,39,Female,94178,Premium,Quarterly,Bank Transfer,83,7,Yes,South,No
+513,46,Male,63997,Basic,Yearly,Bank Transfer,25,6,Yes,West,Yes
+514,31,Female,55611,Premium,Quarterly,Credit Card,16,7,No,North,No
+515,45,Female,149273,Basic,Monthly,Credit Card,54,2,No,North,No
+516,22,Female,71235,Premium,Quarterly,PayPal,73,1,No,North,Yes
+517,64,Male,147428,Standard,Monthly,Credit Card,1,6,No,North,Yes
+518,66,Female,65057,Premium,Quarterly,Bank Transfer,42,7,No,South,No
+519,47,Male,31239,Basic,Monthly,Bank Transfer,19,0,No,East,No
+520,63,Female,133674,Premium,Quarterly,Credit Card,97,9,Yes,West,No
+521,69,Male,144474,Standard,Monthly,Cash,34,8,No,East,No
+522,22,Male,95661,Basic,Monthly,PayPal,80,3,No,South,Yes
+523,29,Female,75272,Premium,Monthly,Cash,55,3,Yes,South,No
+524,33,Female,119393,Basic,Monthly,PayPal,18,2,No,East,No
+525,43,Male,91212,Premium,Quarterly,Cash,34,5,No,East,No
+526,43,Female,45398,Basic,Quarterly,Credit Card,89,0,No,South,No
+527,65,Male,86503,Standard,Monthly,PayPal,45,5,No,South,No
+528,38,Male,36638,Standard,Monthly,PayPal,6,1,No,West,Yes
+529,56,Male,36570,Basic,Monthly,PayPal,21,8,No,North,Yes
+530,53,Male,98785,Basic,Monthly,Bank Transfer,70,1,Yes,North,Yes
+531,50,Male,39110,Basic,Monthly,Bank Transfer,96,6,Yes,West,No
+532,47,Female,135899,Basic,Yearly,Cash,48,0,Yes,East,No
+533,54,Male,109141,Basic,Monthly,Credit Card,39,6,Yes,South,No
+534,40,Male,42115,Standard,Monthly,Bank Transfer,31,4,No,East,No
+535,27,Female,69062,Basic,Monthly,PayPal,10,7,No,North,No
+536,22,Male,52911,Basic,Monthly,Bank Transfer,30,3,Yes,North,No
+537,53,Female,134061,Standard,Monthly,Credit Card,18,9,No,East,No
+538,51,Female,62556,Basic,Quarterly,Bank Transfer,60,6,Yes,North,Yes
+539,69,Female,108131,Premium,Monthly,PayPal,88,5,No,South,No
+540,48,Male,31969,Premium,Monthly,Cash,73,4,Yes,West,No
+541,27,Male,73753,Standard,Monthly,PayPal,95,3,No,East,No
+542,36,Male,112811,Standard,Monthly,Credit Card,15,6,Yes,South,No
+543,49,Female,34470,Premium,Monthly,Cash,4,4,No,South,No
+544,18,Male,40225,Basic,Yearly,Bank Transfer,63,4,No,North,No
+545,22,Female,137860,Basic,Quarterly,Bank Transfer,40,0,No,South,No
+546,62,Male,137510,Basic,Monthly,Bank Transfer,9,1,Yes,East,No
+547,21,Female,138295,Standard,Monthly,Cash,9,4,Yes,South,No
+548,33,Male,53196,Basic,Monthly,PayPal,26,2,Yes,West,No
+549,41,Male,135823,Standard,Monthly,Cash,4,1,No,South,No
+550,33,Male,43669,Premium,Quarterly,Cash,81,3,Yes,South,No
+551,19,Female,67380,Premium,Quarterly,Credit Card,16,3,No,West,No
+552,66,Female,140677,Standard,Monthly,Cash,15,3,No,South,No
+553,45,Male,145886,Basic,Monthly,Bank Transfer,99,3,No,South,No
+554,49,Male,78320,Premium,Monthly,PayPal,52,2,No,North,No
+555,44,Female,77414,Standard,Yearly,PayPal,69,6,Yes,East,No
+556,37,Female,133542,Basic,Quarterly,PayPal,5,8,Yes,North,Yes
+557,41,Female,45577,Basic,Monthly,Bank Transfer,20,4,No,East,Yes
+558,29,Male,118009,Premium,Monthly,Bank Transfer,79,3,No,West,No
+559,67,Female,85409,Standard,Quarterly,Bank Transfer,18,1,Yes,West,No
+560,52,Male,58625,Premium,Monthly,Bank Transfer,2,1,Yes,West,No
+561,50,Female,111040,Premium,Monthly,Bank Transfer,93,4,No,East,No
+562,50,Male,54089,Standard,Monthly,Cash,13,6,Yes,East,Yes
+563,68,Female,66487,Standard,Quarterly,Bank Transfer,4,9,No,East,No
+564,60,Female,95838,Basic,Monthly,Bank Transfer,42,9,No,West,No
+565,54,Female,126999,Basic,Monthly,Bank Transfer,74,8,Yes,East,No
+566,29,Female,140448,Basic,Yearly,Bank Transfer,61,6,Yes,South,No
+567,20,Female,124795,Standard,Monthly,PayPal,95,4,Yes,North,No
+568,18,Male,80138,Standard,Monthly,Bank Transfer,8,9,No,West,Yes
+569,50,Female,72823,Premium,Monthly,Cash,67,9,No,North,No
+570,57,Female,67208,Basic,Monthly,Cash,63,9,No,South,No
+571,27,Female,84061,Standard,Quarterly,Cash,9,5,No,East,No
+572,60,Male,60659,Standard,Monthly,Credit Card,94,2,No,North,No
+573,61,Female,131376,Standard,Monthly,PayPal,11,4,Yes,South,No
+574,46,Male,61890,Standard,Monthly,Bank Transfer,99,7,Yes,South,No
+575,30,Female,109134,Basic,Quarterly,Credit Card,42,0,No,North,No
+576,29,Female,77055,Standard,Quarterly,Bank Transfer,13,0,Yes,West,No
+577,48,Male,142269,Basic,Monthly,Credit Card,36,6,Yes,North,No
+578,63,Female,49508,Basic,Monthly,Credit Card,13,4,No,West,No
+579,19,Male,72287,Basic,Quarterly,Cash,12,4,No,East,No
+580,68,Male,108916,Standard,Monthly,Cash,37,0,No,West,No
+581,67,Female,56984,Premium,Quarterly,Credit Card,74,8,No,East,No
+582,52,Male,140169,Standard,Quarterly,Cash,73,0,Yes,North,Yes
+583,40,Female,38125,Standard,Quarterly,Credit Card,52,4,No,East,Yes
+584,34,Female,66059,Standard,Monthly,PayPal,71,9,Yes,South,No
+585,43,Male,99569,Standard,Monthly,Cash,2,8,No,East,No
+586,25,Male,133409,Basic,Quarterly,Cash,56,3,No,West,No
+587,46,Male,47087,Basic,Monthly,Cash,60,7,Yes,West,No
+588,43,Male,136437,Basic,Monthly,PayPal,23,5,No,West,Yes
+589,27,Female,145262,Basic,Yearly,Credit Card,40,2,Yes,East,No
+590,43,Female,35704,Basic,Yearly,Bank Transfer,64,3,No,West,No
+591,51,Male,90576,Basic,Monthly,Cash,85,1,No,West,No
+592,68,Female,103384,Basic,Monthly,Credit Card,23,0,No,South,Yes
+593,58,Female,117128,Premium,Monthly,PayPal,29,7,No,East,No
+594,24,Female,141279,Basic,Quarterly,Bank Transfer,78,0,Yes,South,No
+595,21,Female,102460,Basic,Yearly,Cash,90,0,No,West,No
+596,67,Male,57208,Basic,Monthly,PayPal,51,3,No,West,No
+597,62,Male,148516,Standard,Monthly,PayPal,69,9,Yes,West,No
+598,28,Female,115150,Basic,Yearly,Bank Transfer,95,9,No,East,No
+599,46,Male,96024,Basic,Monthly,Credit Card,89,5,No,North,No
+600,53,Male,69882,Standard,Monthly,Cash,31,8,Yes,West,Yes
+601,42,Male,55923,Basic,Yearly,Cash,50,0,No,West,No
+602,38,Female,144044,Basic,Monthly,Credit Card,20,6,Yes,West,No
+603,53,Female,131477,Basic,Quarterly,Credit Card,55,9,No,West,Yes
+604,27,Female,59165,Basic,Monthly,Credit Card,81,4,Yes,East,Yes
+605,54,Male,97203,Basic,Monthly,Bank Transfer,2,7,No,North,No
+606,26,Female,121749,Basic,Quarterly,Bank Transfer,25,6,No,North,No
+607,41,Female,34114,Premium,Monthly,Cash,13,3,No,North,No
+608,52,Male,94965,Standard,Yearly,Bank Transfer,92,3,No,West,No
+609,66,Female,66321,Standard,Monthly,PayPal,70,5,No,West,Yes
+610,52,Female,103297,Basic,Monthly,Cash,67,5,No,North,Yes
+611,65,Male,126652,Premium,Monthly,Bank Transfer,58,8,Yes,North,No
+612,53,Male,129304,Basic,Monthly,Credit Card,99,4,No,West,Yes
+613,35,Male,143942,Basic,Monthly,PayPal,82,7,No,West,No
+614,66,Female,55426,Standard,Monthly,Credit Card,75,4,No,South,No
+615,56,Female,47772,Basic,Monthly,Cash,84,1,No,South,No
+616,49,Female,133754,Basic,Monthly,Credit Card,64,5,No,South,No
+617,41,Male,33712,Standard,Quarterly,Bank Transfer,69,8,No,North,Yes
+618,40,Male,31367,Premium,Quarterly,Bank Transfer,83,2,No,East,No
+619,49,Female,136493,Basic,Quarterly,Cash,86,0,Yes,West,Yes
+620,54,Female,137317,Standard,Monthly,Credit Card,59,0,No,South,No
+621,29,Male,145142,Premium,Monthly,Cash,60,2,No,East,No
+622,66,Male,121736,Basic,Quarterly,Credit Card,83,9,No,West,No
+623,30,Male,81924,Basic,Monthly,PayPal,62,4,No,East,No
+624,40,Male,33726,Basic,Monthly,Bank Transfer,16,2,Yes,North,Yes
+625,42,Female,119152,Basic,Quarterly,Cash,88,8,No,North,No
+626,52,Male,57723,Basic,Quarterly,PayPal,68,7,No,North,No
+627,58,Female,133110,Premium,Monthly,PayPal,15,2,Yes,South,No
+628,47,Female,130494,Standard,Monthly,Cash,89,8,No,West,Yes
+629,34,Female,39108,Standard,Quarterly,Cash,55,5,Yes,North,No
+630,66,Male,107714,Basic,Monthly,PayPal,35,6,No,South,Yes
+631,37,Male,65643,Premium,Quarterly,Credit Card,55,3,Yes,South,No
+632,65,Male,61324,Premium,Quarterly,PayPal,14,3,No,South,No
+633,42,Male,133896,Premium,Quarterly,Cash,49,1,No,South,No
+634,39,Female,113360,Basic,Monthly,PayPal,83,4,No,North,No
+635,30,Male,140896,Standard,Monthly,Credit Card,7,7,No,South,No
+636,36,Male,38927,Basic,Quarterly,Bank Transfer,30,6,No,North,No
+637,66,Female,123680,Basic,Quarterly,Bank Transfer,83,6,Yes,North,Yes
+638,53,Male,126546,Basic,Quarterly,PayPal,49,5,Yes,South,No
+639,29,Female,52443,Standard,Monthly,Credit Card,89,2,No,North,Yes
+640,58,Female,109973,Standard,Monthly,Bank Transfer,16,4,Yes,West,No
+641,36,Female,93449,Basic,Yearly,PayPal,51,0,No,West,No
+642,29,Female,139834,Basic,Quarterly,PayPal,72,6,No,East,No
+643,26,Female,135314,Basic,Yearly,Credit Card,82,8,No,West,No
+644,24,Female,106743,Basic,Quarterly,Cash,92,0,No,North,No
+645,45,Female,90233,Basic,Monthly,PayPal,80,1,Yes,North,No
+646,31,Female,55537,Basic,Quarterly,Cash,83,2,No,West,Yes
+647,48,Male,131293,Standard,Yearly,Cash,42,2,No,South,No
+648,69,Male,107576,Basic,Monthly,Bank Transfer,17,7,No,South,No
+649,36,Male,137522,Basic,Quarterly,Cash,63,6,No,North,No
+650,64,Male,52612,Basic,Monthly,Credit Card,45,5,Yes,South,No
+651,33,Female,123977,Premium,Monthly,Bank Transfer,77,9,No,East,No
+652,22,Male,36471,Standard,Quarterly,Bank Transfer,7,9,No,East,No
+653,52,Female,65631,Standard,Monthly,Bank Transfer,27,3,No,West,Yes
+654,29,Male,138997,Basic,Monthly,PayPal,10,8,Yes,West,No
+655,42,Male,122059,Standard,Monthly,PayPal,34,0,No,South,No
+656,69,Male,61348,Basic,Monthly,Cash,36,1,No,North,No
+657,38,Female,94732,Standard,Monthly,Bank Transfer,25,3,Yes,West,No
+658,53,Male,31177,Premium,Monthly,Bank Transfer,6,2,No,East,No
+659,40,Female,34760,Standard,Yearly,Credit Card,24,0,No,West,Yes
+660,33,Female,62779,Premium,Monthly,Cash,18,4,No,West,No
+661,56,Male,51636,Standard,Monthly,Credit Card,87,6,No,East,Yes
+662,62,Male,111889,Basic,Monthly,Cash,6,1,Yes,North,No
+663,59,Male,83551,Premium,Quarterly,Cash,29,4,No,West,No
+664,56,Female,41556,Basic,Monthly,PayPal,25,5,No,West,No
+665,31,Male,57598,Standard,Quarterly,PayPal,55,6,No,West,No
+666,48,Female,41563,Basic,Quarterly,Credit Card,81,0,No,South,Yes
+667,22,Female,76819,Basic,Quarterly,Cash,46,6,No,West,No
+668,52,Male,139326,Basic,Monthly,Bank Transfer,24,3,Yes,East,No
+669,40,Male,103770,Basic,Quarterly,PayPal,75,7,No,North,No
+670,46,Female,121055,Basic,Monthly,Bank Transfer,26,3,No,North,No
+671,60,Female,56966,Standard,Yearly,Credit Card,98,5,No,East,No
+672,28,Female,111709,Basic,Quarterly,PayPal,28,8,No,South,No
+673,35,Male,89889,Basic,Monthly,PayPal,3,4,No,East,Yes
+674,64,Female,56987,Standard,Monthly,Cash,75,3,No,North,No
+675,29,Male,108714,Basic,Monthly,Credit Card,38,7,Yes,East,Yes
+676,26,Female,134874,Standard,Quarterly,Cash,61,8,No,South,No
+677,27,Female,88348,Standard,Monthly,PayPal,78,3,No,North,No
+678,61,Male,54596,Premium,Monthly,Credit Card,51,2,No,South,Yes
+679,34,Female,63174,Standard,Monthly,PayPal,90,7,No,East,Yes
+680,55,Male,94106,Basic,Quarterly,Credit Card,48,4,No,West,No
+681,24,Male,137510,Standard,Quarterly,PayPal,21,1,No,East,No
+682,63,Female,99967,Basic,Quarterly,Bank Transfer,54,9,No,South,Yes
+683,30,Male,89182,Basic,Quarterly,Bank Transfer,56,8,No,East,Yes
+684,57,Male,123300,Standard,Monthly,Cash,94,2,No,West,No
+685,59,Female,117163,Basic,Monthly,Bank Transfer,59,1,No,South,No
+686,26,Male,69310,Standard,Quarterly,PayPal,72,0,No,East,No
+687,67,Male,86088,Premium,Monthly,PayPal,51,7,No,South,Yes
+688,44,Male,38906,Premium,Monthly,Bank Transfer,20,2,No,South,No
+689,19,Female,66914,Premium,Monthly,Cash,96,6,No,North,Yes
+690,22,Male,140350,Basic,Monthly,Bank Transfer,86,0,No,North,Yes
+691,46,Female,75379,Basic,Monthly,Credit Card,59,0,Yes,South,No
+692,54,Female,108612,Standard,Yearly,Credit Card,71,8,Yes,East,No
+693,55,Male,144828,Basic,Monthly,Credit Card,9,7,No,East,No
+694,36,Male,67650,Standard,Monthly,Bank Transfer,1,2,No,East,No
+695,25,Male,76881,Standard,Monthly,Bank Transfer,29,5,No,West,No
+696,65,Female,76413,Standard,Quarterly,Bank Transfer,63,2,No,South,No
+697,62,Male,36012,Basic,Monthly,Credit Card,72,3,Yes,South,No
+698,18,Male,80115,Basic,Yearly,Cash,56,0,No,West,No
+699,39,Male,37151,Basic,Yearly,PayPal,68,4,No,South,No
+700,69,Male,87716,Basic,Monthly,Bank Transfer,35,0,No,South,No
+701,34,Male,123747,Premium,Yearly,Cash,3,0,No,West,No
+702,24,Female,122653,Basic,Yearly,PayPal,7,9,Yes,North,No
+703,42,Female,66378,Basic,Quarterly,PayPal,27,6,Yes,South,No
+704,62,Male,72652,Basic,Quarterly,PayPal,1,5,No,West,No
+705,21,Male,102430,Standard,Monthly,Cash,91,1,No,East,No
+706,53,Male,43467,Standard,Monthly,Cash,80,1,No,North,No
+707,23,Male,61010,Basic,Monthly,Credit Card,71,6,Yes,East,Yes
+708,48,Female,144793,Basic,Monthly,Cash,44,0,Yes,South,No
+709,36,Male,84691,Basic,Yearly,Cash,87,1,No,North,No
+710,61,Female,94157,Basic,Monthly,Cash,41,7,No,West,No
+711,56,Female,138177,Standard,Quarterly,PayPal,75,5,No,South,No
+712,44,Male,42289,Standard,Quarterly,Bank Transfer,42,1,Yes,West,Yes
+713,27,Female,74976,Basic,Yearly,Credit Card,33,6,No,North,No
+714,43,Female,73596,Basic,Yearly,Bank Transfer,50,3,Yes,East,No
+715,36,Female,53171,Premium,Monthly,Bank Transfer,63,1,Yes,South,No
+716,56,Female,130441,Basic,Monthly,Cash,37,5,No,South,No
+717,20,Male,116365,Standard,Monthly,Credit Card,59,8,Yes,West,No
+718,62,Male,148218,Basic,Monthly,Bank Transfer,81,8,Yes,North,No
+719,30,Female,129590,Basic,Monthly,Bank Transfer,99,7,No,West,No
+720,67,Male,144014,Basic,Monthly,Credit Card,48,2,No,North,Yes
+721,45,Male,74139,Standard,Quarterly,Cash,5,2,No,South,No
+722,37,Male,78713,Premium,Monthly,Bank Transfer,48,1,No,North,No
+723,45,Male,59734,Basic,Monthly,PayPal,96,4,Yes,South,No
+724,25,Male,102588,Basic,Quarterly,Bank Transfer,3,3,Yes,North,No
+725,58,Female,93646,Basic,Monthly,PayPal,47,6,No,East,No
+726,56,Male,33654,Basic,Monthly,Cash,62,3,No,North,Yes
+727,18,Male,119022,Basic,Quarterly,Bank Transfer,99,8,No,East,Yes
+728,20,Male,48743,Basic,Quarterly,Credit Card,14,1,Yes,North,No
+729,30,Male,78368,Standard,Quarterly,Credit Card,63,5,No,North,No
+730,45,Female,120025,Basic,Monthly,Bank Transfer,61,6,Yes,West,No
+731,66,Female,104172,Basic,Quarterly,Cash,31,3,No,West,No
+732,42,Female,36441,Premium,Quarterly,Cash,95,5,No,South,No
+733,50,Female,149735,Basic,Monthly,Credit Card,17,6,No,West,No
+734,55,Male,54611,Premium,Quarterly,Bank Transfer,24,3,No,North,No
+735,23,Female,149891,Basic,Yearly,Cash,23,7,No,West,No
+736,61,Male,137971,Premium,Monthly,Credit Card,82,8,No,North,Yes
+737,62,Male,42149,Standard,Monthly,PayPal,50,0,No,East,Yes
+738,49,Male,130102,Premium,Yearly,Bank Transfer,78,6,Yes,North,Yes
+739,62,Male,89189,Premium,Quarterly,PayPal,79,8,No,South,Yes
+740,64,Male,137904,Basic,Monthly,PayPal,79,9,Yes,East,Yes
+741,38,Female,51675,Premium,Quarterly,Cash,70,4,No,South,No
+742,33,Female,101031,Basic,Monthly,Cash,27,1,No,South,No
+743,38,Female,72668,Basic,Monthly,Cash,15,9,No,South,No
+744,28,Female,43673,Basic,Monthly,Bank Transfer,50,5,No,West,Yes
+745,54,Male,106666,Standard,Yearly,PayPal,36,6,Yes,South,No
+746,53,Female,118204,Basic,Yearly,Bank Transfer,8,1,No,East,No
+747,52,Male,110758,Standard,Monthly,Cash,79,1,No,North,Yes
+748,36,Female,95429,Standard,Monthly,PayPal,3,9,No,South,No
+749,37,Male,53669,Standard,Monthly,Bank Transfer,62,9,No,East,Yes
+750,35,Male,64068,Premium,Yearly,Bank Transfer,47,0,No,South,No
+751,64,Female,118789,Basic,Yearly,Credit Card,77,3,No,North,No
+752,58,Male,39435,Basic,Quarterly,Bank Transfer,98,6,Yes,East,No
+753,66,Male,124088,Basic,Quarterly,Cash,88,8,Yes,East,No
+754,31,Female,82249,Basic,Quarterly,Bank Transfer,96,2,No,North,No
+755,32,Male,67384,Basic,Monthly,PayPal,61,6,No,East,No
+756,48,Female,111929,Basic,Monthly,Bank Transfer,32,6,No,North,No
+757,18,Female,106153,Basic,Monthly,Credit Card,94,6,No,East,Yes
+758,20,Female,134056,Premium,Quarterly,PayPal,13,1,No,East,Yes
+759,33,Male,105388,Standard,Quarterly,PayPal,1,5,No,North,No
+760,40,Male,61401,Basic,Monthly,Credit Card,34,1,Yes,North,No
+761,28,Male,101831,Standard,Yearly,Cash,62,5,Yes,East,No
+762,29,Female,149503,Basic,Monthly,PayPal,79,9,No,East,Yes
+763,27,Male,145760,Basic,Monthly,Cash,78,2,No,North,No
+764,49,Female,131529,Standard,Quarterly,PayPal,93,1,No,West,No
+765,33,Female,64084,Basic,Quarterly,PayPal,98,5,No,North,No
+766,25,Male,140641,Basic,Quarterly,Cash,82,1,Yes,East,No
+767,55,Female,135111,Premium,Monthly,PayPal,71,4,No,East,No
+768,29,Male,85826,Premium,Monthly,Cash,93,1,Yes,East,Yes
+769,41,Male,66451,Standard,Quarterly,Credit Card,31,2,No,North,No
+770,45,Male,37227,Standard,Monthly,Cash,64,2,No,East,No
+771,25,Male,61910,Standard,Monthly,Credit Card,25,5,No,West,No
+772,45,Male,66041,Basic,Quarterly,PayPal,38,5,No,South,No
+773,53,Female,118920,Basic,Monthly,Cash,14,9,Yes,West,No
+774,43,Female,95681,Basic,Quarterly,PayPal,8,2,No,North,No
+775,25,Female,133314,Basic,Quarterly,Cash,91,2,No,East,No
+776,67,Male,111571,Standard,Monthly,Credit Card,54,0,No,North,No
+777,45,Male,95481,Basic,Monthly,Credit Card,2,6,No,South,No
+778,45,Male,98576,Premium,Quarterly,Cash,81,7,No,North,No
+779,54,Female,137958,Premium,Quarterly,Credit Card,78,1,No,East,No
+780,58,Male,94174,Standard,Quarterly,PayPal,89,3,Yes,South,No
+781,53,Female,56160,Standard,Quarterly,PayPal,56,9,No,South,No
+782,44,Female,145170,Premium,Quarterly,Bank Transfer,94,6,Yes,East,Yes
+783,34,Male,147867,Basic,Yearly,Credit Card,93,7,No,East,No
+784,26,Male,47633,Standard,Monthly,PayPal,84,0,No,East,Yes
+785,50,Female,124880,Basic,Monthly,Cash,85,3,No,North,No
+786,37,Male,47014,Standard,Monthly,Credit Card,61,5,No,West,No
+787,30,Female,110532,Basic,Monthly,PayPal,22,2,No,North,No
+788,45,Male,79104,Premium,Monthly,Credit Card,35,4,Yes,North,No
+789,65,Male,71621,Premium,Monthly,Cash,16,9,No,West,No
+790,46,Female,107231,Basic,Yearly,PayPal,50,8,No,East,No
+791,30,Male,98388,Basic,Monthly,Bank Transfer,43,2,No,East,Yes
+792,63,Female,46014,Premium,Monthly,Bank Transfer,17,4,Yes,West,Yes
+793,52,Male,122578,Basic,Monthly,Credit Card,80,7,No,West,No
+794,23,Female,63755,Premium,Monthly,Cash,58,5,No,North,No
+795,35,Female,70390,Standard,Monthly,PayPal,2,3,No,South,Yes
+796,68,Male,53711,Basic,Monthly,Cash,4,7,No,West,Yes
+797,22,Female,121658,Basic,Monthly,PayPal,85,2,No,North,No
+798,64,Male,87993,Basic,Quarterly,Credit Card,39,2,No,South,No
+799,42,Male,104696,Standard,Yearly,PayPal,98,3,No,East,No
+800,19,Male,57213,Basic,Yearly,Cash,94,8,Yes,East,Yes
+801,27,Female,145788,Standard,Quarterly,Cash,6,4,Yes,North,Yes
+802,47,Female,134956,Basic,Monthly,Credit Card,81,7,No,North,No
+803,67,Male,87784,Standard,Yearly,Cash,89,5,Yes,West,No
+804,62,Male,37421,Premium,Yearly,PayPal,69,2,No,East,No
+805,22,Female,116936,Premium,Monthly,Credit Card,69,7,No,North,No
+806,50,Male,129073,Basic,Quarterly,PayPal,20,8,Yes,East,No
+807,18,Male,47727,Premium,Monthly,Cash,64,7,No,East,Yes
+808,35,Female,142418,Standard,Quarterly,Credit Card,16,3,No,West,No
+809,49,Male,34358,Standard,Yearly,PayPal,51,5,No,South,No
+810,64,Female,95108,Premium,Monthly,Cash,37,0,No,West,No
+811,66,Male,124018,Basic,Yearly,Cash,73,3,No,North,No
+812,28,Female,62117,Basic,Quarterly,Bank Transfer,69,7,No,West,No
+813,38,Male,118700,Premium,Yearly,Cash,42,0,No,West,Yes
+814,43,Male,61910,Basic,Monthly,PayPal,57,2,No,East,No
+815,42,Female,128032,Premium,Quarterly,Credit Card,66,0,Yes,West,No
+816,39,Male,85754,Premium,Monthly,Bank Transfer,9,8,Yes,North,No
+817,44,Female,92438,Basic,Monthly,Cash,86,1,No,South,No
+818,66,Male,139847,Premium,Monthly,Cash,64,8,Yes,West,No
+819,30,Female,59371,Basic,Yearly,Cash,86,3,Yes,West,No
+820,50,Female,81501,Standard,Quarterly,PayPal,22,1,No,South,No
+821,51,Female,90946,Standard,Yearly,Bank Transfer,34,3,Yes,North,Yes
+822,58,Female,68467,Premium,Yearly,PayPal,55,9,No,North,No
+823,52,Male,47625,Basic,Monthly,Bank Transfer,29,5,No,West,Yes
+824,18,Male,63893,Basic,Monthly,Credit Card,38,6,No,East,No
+825,38,Female,106329,Standard,Monthly,PayPal,97,2,No,West,No
+826,65,Female,61007,Standard,Monthly,PayPal,18,2,Yes,South,No
+827,23,Female,121302,Standard,Monthly,Credit Card,71,9,No,South,No
+828,45,Male,69532,Basic,Monthly,Bank Transfer,65,7,No,South,No
+829,34,Male,84253,Basic,Monthly,Cash,97,4,No,West,Yes
+830,22,Male,42323,Basic,Monthly,Credit Card,1,3,No,West,No
+831,48,Male,141335,Premium,Monthly,Cash,88,6,No,North,Yes
+832,22,Female,142356,Basic,Monthly,Cash,4,6,No,East,No
+833,55,Female,140944,Basic,Yearly,Credit Card,4,8,Yes,West,No
+834,20,Female,103379,Premium,Quarterly,Bank Transfer,82,8,No,North,No
+835,40,Male,44210,Basic,Yearly,Cash,27,4,No,West,No
+836,54,Male,46456,Premium,Monthly,Credit Card,43,7,Yes,North,Yes
+837,54,Male,61367,Standard,Monthly,PayPal,59,9,No,North,Yes
+838,27,Female,84624,Premium,Quarterly,PayPal,32,0,Yes,East,No
+839,27,Female,40106,Basic,Monthly,PayPal,33,8,No,West,No
+840,36,Male,133493,Basic,Monthly,Credit Card,28,7,No,North,Yes
+841,34,Female,98008,Standard,Monthly,PayPal,55,5,Yes,South,No
+842,38,Male,145395,Premium,Monthly,Cash,60,2,No,South,No
+843,31,Male,146492,Standard,Monthly,PayPal,70,2,Yes,South,Yes
+844,26,Female,102240,Basic,Monthly,PayPal,62,7,No,East,No
+845,63,Male,94315,Standard,Quarterly,Cash,80,4,Yes,North,Yes
+846,18,Female,99249,Standard,Monthly,PayPal,34,9,No,East,No
+847,68,Male,100587,Standard,Monthly,Cash,87,6,No,West,No
+848,62,Female,40756,Standard,Quarterly,PayPal,88,4,No,West,No
+849,30,Female,98011,Premium,Monthly,Cash,56,7,No,North,No
+850,21,Female,66378,Standard,Monthly,PayPal,13,9,No,South,Yes
+851,18,Male,34255,Basic,Yearly,Cash,56,9,No,North,No
+852,66,Male,44484,Basic,Monthly,Credit Card,18,3,No,North,No
+853,57,Female,86549,Basic,Monthly,Cash,54,1,No,North,Yes
+854,49,Female,64503,Basic,Monthly,PayPal,77,2,No,East,No
+855,51,Male,103794,Basic,Monthly,PayPal,43,7,Yes,West,No
+856,45,Male,136283,Basic,Monthly,Bank Transfer,39,6,No,North,No
+857,48,Male,130732,Basic,Quarterly,Cash,61,1,Yes,North,No
+858,25,Female,75113,Basic,Monthly,Credit Card,42,5,No,North,No
+859,56,Male,135730,Premium,Monthly,Cash,81,8,No,East,No
+860,43,Male,104069,Premium,Monthly,Cash,79,3,No,East,No
+861,51,Female,128117,Basic,Monthly,Credit Card,18,8,Yes,East,No
+862,20,Male,35249,Premium,Quarterly,Cash,23,1,Yes,North,No
+863,67,Male,149979,Standard,Monthly,Credit Card,54,1,No,South,No
+864,29,Male,49201,Basic,Monthly,Credit Card,30,8,No,South,No
+865,18,Female,88576,Basic,Monthly,Cash,98,6,No,South,No
+866,61,Female,148562,Standard,Monthly,Cash,58,6,No,West,No
+867,22,Female,39686,Standard,Monthly,PayPal,68,0,No,North,No
+868,47,Female,142413,Standard,Quarterly,PayPal,67,5,No,South,No
+869,47,Female,83363,Basic,Monthly,Bank Transfer,71,6,Yes,South,No
+870,34,Female,127543,Basic,Monthly,Bank Transfer,18,5,No,South,No
+871,65,Female,30661,Basic,Monthly,Cash,7,5,Yes,North,No
+872,64,Male,74843,Basic,Quarterly,Credit Card,40,1,No,South,Yes
+873,40,Male,125673,Basic,Monthly,Bank Transfer,70,5,Yes,South,No
+874,32,Female,90963,Basic,Quarterly,Cash,86,3,No,North,No
+875,54,Male,143092,Premium,Quarterly,Bank Transfer,65,8,Yes,West,No
+876,38,Male,72828,Premium,Yearly,Credit Card,68,0,Yes,East,No
+877,31,Female,78604,Basic,Monthly,Cash,49,7,No,South,Yes
+878,19,Male,40526,Premium,Monthly,Credit Card,52,4,Yes,East,No
+879,28,Male,98910,Basic,Quarterly,Cash,29,0,Yes,West,No
+880,68,Male,55592,Basic,Yearly,Bank Transfer,21,3,No,West,Yes
+881,56,Male,58982,Basic,Yearly,PayPal,90,0,Yes,South,No
+882,55,Male,30207,Standard,Monthly,Bank Transfer,78,5,Yes,North,No
+883,51,Female,130969,Premium,Monthly,Bank Transfer,9,1,No,West,No
+884,55,Female,147181,Standard,Monthly,PayPal,47,4,No,East,No
+885,67,Female,118733,Basic,Quarterly,PayPal,76,6,No,East,No
+886,51,Male,128936,Standard,Monthly,Cash,42,1,No,East,No
+887,35,Female,98619,Basic,Monthly,Cash,51,5,No,East,Yes
+888,47,Male,59328,Premium,Quarterly,Credit Card,56,5,Yes,West,No
+889,32,Male,76479,Standard,Monthly,Credit Card,51,4,No,South,No
+890,44,Male,138427,Basic,Yearly,Bank Transfer,70,4,No,South,No
+891,68,Male,50103,Standard,Monthly,PayPal,20,2,No,East,No
+892,51,Female,69891,Standard,Monthly,Credit Card,88,9,No,South,No
+893,69,Female,40754,Basic,Monthly,Bank Transfer,27,9,Yes,East,No
+894,55,Male,129983,Standard,Quarterly,PayPal,38,1,No,East,No
+895,50,Female,111437,Basic,Monthly,Cash,72,6,No,North,No
+896,41,Male,128540,Standard,Monthly,Bank Transfer,65,0,No,West,No
+897,32,Female,102982,Premium,Yearly,Cash,54,5,Yes,West,No
+898,47,Female,132747,Premium,Monthly,Credit Card,24,5,Yes,East,No
+899,59,Male,85922,Standard,Monthly,Credit Card,47,2,Yes,West,No
+900,68,Female,78231,Standard,Monthly,PayPal,71,1,No,South,No
+901,34,Male,59301,Basic,Monthly,Bank Transfer,83,1,Yes,East,No
+902,22,Female,121652,Standard,Quarterly,Cash,86,8,Yes,North,No
+903,46,Male,92711,Basic,Monthly,PayPal,63,4,No,South,No
+904,21,Male,71323,Basic,Monthly,Credit Card,57,6,Yes,North,No
+905,27,Female,48752,Basic,Monthly,Credit Card,55,4,No,North,No
+906,34,Female,127912,Basic,Quarterly,Bank Transfer,60,6,No,West,No
+907,27,Male,112205,Standard,Monthly,Cash,99,3,No,West,No
+908,34,Female,128452,Basic,Monthly,Bank Transfer,62,7,No,East,No
+909,37,Female,43395,Standard,Monthly,Cash,30,9,No,West,No
+910,41,Male,115957,Basic,Monthly,Cash,93,9,No,North,No
+911,22,Male,86273,Basic,Monthly,Bank Transfer,22,6,Yes,North,Yes
+912,51,Female,121878,Standard,Monthly,PayPal,75,9,Yes,South,No
+913,23,Male,34895,Basic,Quarterly,Bank Transfer,84,4,Yes,North,Yes
+914,19,Male,149968,Basic,Monthly,Bank Transfer,29,5,No,East,No
+915,30,Male,145700,Standard,Yearly,Credit Card,41,4,No,East,No
+916,60,Female,106559,Basic,Yearly,Credit Card,42,6,No,West,No
+917,60,Female,40699,Premium,Monthly,Bank Transfer,98,1,No,West,No
+918,65,Male,95061,Basic,Monthly,Bank Transfer,65,4,Yes,West,No
+919,28,Female,39715,Basic,Monthly,Credit Card,31,9,No,East,No
+920,68,Male,49169,Standard,Quarterly,Cash,30,2,No,North,Yes
+921,64,Female,148413,Basic,Monthly,Bank Transfer,18,8,Yes,West,No
+922,40,Male,46163,Basic,Monthly,PayPal,17,5,No,South,No
+923,33,Male,149264,Basic,Monthly,PayPal,38,9,Yes,West,Yes
+924,48,Female,35782,Basic,Quarterly,PayPal,14,2,No,East,No
+925,28,Male,118177,Premium,Quarterly,Bank Transfer,87,6,No,West,Yes
+926,33,Female,114328,Basic,Monthly,Cash,89,3,Yes,North,No
+927,25,Female,145028,Standard,Quarterly,Cash,79,2,No,West,Yes
+928,21,Male,65585,Premium,Monthly,Credit Card,56,7,No,East,Yes
+929,57,Male,60682,Basic,Monthly,Bank Transfer,22,3,No,East,Yes
+930,21,Female,77864,Premium,Yearly,Cash,67,0,No,South,No
+931,42,Male,114416,Basic,Monthly,Bank Transfer,56,5,Yes,East,No
+932,20,Male,85114,Premium,Monthly,Credit Card,19,9,No,South,No
+933,49,Male,68067,Basic,Monthly,Credit Card,57,0,No,North,No
+934,20,Male,72685,Standard,Yearly,Credit Card,44,4,No,East,No
+935,44,Male,48073,Basic,Quarterly,PayPal,98,6,Yes,West,No
+936,46,Female,66035,Basic,Quarterly,Bank Transfer,35,5,No,North,No
+937,49,Female,94977,Standard,Quarterly,Credit Card,1,1,No,West,No
+938,67,Male,132710,Standard,Monthly,Bank Transfer,52,3,Yes,West,No
+939,68,Male,120373,Basic,Monthly,PayPal,85,1,No,West,No
+940,36,Male,113362,Basic,Monthly,PayPal,93,0,Yes,North,No
+941,38,Female,120517,Standard,Monthly,Credit Card,70,2,No,North,Yes
+942,22,Male,95450,Standard,Monthly,Credit Card,37,2,Yes,East,No
+943,35,Female,40382,Premium,Yearly,Cash,65,6,No,West,Yes
+944,45,Female,34437,Standard,Monthly,Bank Transfer,51,0,No,South,No
+945,59,Female,100971,Premium,Monthly,Credit Card,1,8,No,East,No
+946,39,Male,94612,Standard,Monthly,Cash,91,5,No,North,No
+947,38,Female,120355,Basic,Monthly,Bank Transfer,21,3,No,South,No
+948,23,Male,91929,Basic,Yearly,Credit Card,53,2,No,North,No
+949,18,Female,132411,Standard,Monthly,Cash,16,2,Yes,South,No
+950,22,Male,127518,Standard,Monthly,Cash,61,1,Yes,East,No
+951,58,Female,128864,Basic,Quarterly,Bank Transfer,54,1,No,South,No
+952,29,Male,42329,Basic,Monthly,Cash,40,9,Yes,East,No
+953,43,Female,55169,Premium,Monthly,Bank Transfer,26,4,No,North,No
+954,63,Male,117468,Standard,Monthly,Bank Transfer,80,8,No,South,No
+955,51,Male,64594,Basic,Monthly,Bank Transfer,92,1,Yes,West,No
+956,66,Male,106957,Basic,Yearly,PayPal,65,1,No,West,No
+957,31,Male,90631,Basic,Quarterly,Cash,74,5,No,North,No
+958,43,Female,75033,Basic,Monthly,Bank Transfer,64,9,No,South,No
+959,62,Female,93133,Basic,Quarterly,Credit Card,43,1,No,West,Yes
+960,44,Male,103165,Basic,Monthly,PayPal,17,3,No,East,No
+961,26,Female,103861,Standard,Monthly,PayPal,59,5,Yes,South,Yes
+962,43,Male,82290,Basic,Monthly,Cash,23,4,No,South,No
+963,64,Male,124031,Premium,Monthly,Bank Transfer,7,0,No,West,No
+964,39,Female,61750,Premium,Monthly,Cash,44,5,No,East,No
+965,64,Male,125155,Basic,Quarterly,PayPal,53,0,Yes,East,No
+966,47,Male,70461,Standard,Yearly,Bank Transfer,71,2,Yes,East,Yes
+967,60,Female,103800,Basic,Monthly,Credit Card,79,9,No,South,No
+968,65,Male,108222,Premium,Monthly,Bank Transfer,34,4,No,North,No
+969,34,Male,142020,Basic,Monthly,PayPal,46,9,No,South,No
+970,43,Male,54226,Standard,Monthly,Credit Card,68,4,No,South,No
+971,53,Male,36721,Standard,Monthly,Bank Transfer,78,9,No,West,No
+972,18,Female,86154,Basic,Monthly,Credit Card,78,5,No,North,No
+973,25,Female,50609,Basic,Quarterly,Credit Card,16,9,Yes,East,No
+974,66,Female,82130,Standard,Monthly,PayPal,71,7,Yes,West,Yes
+975,52,Male,102909,Standard,Monthly,Credit Card,96,4,Yes,South,Yes
+976,69,Male,134211,Basic,Monthly,Cash,19,0,No,North,No
+977,32,Female,85249,Standard,Monthly,PayPal,2,4,No,East,No
+978,64,Male,78895,Basic,Monthly,Cash,10,2,No,East,No
+979,39,Male,124473,Standard,Quarterly,Credit Card,50,3,No,South,No
+980,31,Male,35656,Basic,Monthly,Cash,81,7,No,East,No
+981,43,Male,104520,Premium,Quarterly,Bank Transfer,12,6,No,East,Yes
+982,45,Female,93740,Basic,Monthly,Credit Card,70,4,No,North,No
+983,40,Female,94309,Basic,Monthly,Bank Transfer,22,1,Yes,West,No
+984,31,Female,59984,Basic,Monthly,Cash,32,5,Yes,North,Yes
+985,41,Male,148947,Basic,Quarterly,Bank Transfer,84,5,No,West,No
+986,19,Female,103822,Standard,Monthly,Credit Card,1,9,No,West,No
+987,62,Female,35901,Basic,Quarterly,Bank Transfer,54,9,No,West,No
+988,43,Male,61552,Premium,Monthly,Cash,58,5,No,East,No
+989,31,Male,121245,Basic,Quarterly,Cash,70,8,No,North,No
+990,68,Female,61055,Basic,Monthly,Cash,83,7,Yes,East,No
+991,24,Female,67685,Basic,Quarterly,Credit Card,18,7,Yes,South,No
+992,20,Female,103965,Basic,Monthly,Cash,6,0,Yes,North,No
+993,64,Female,44716,Basic,Yearly,Credit Card,45,4,No,West,No
+994,40,Male,144099,Basic,Monthly,Bank Transfer,97,6,Yes,East,No
+995,63,Female,41138,Basic,Monthly,Cash,23,5,No,East,No
+996,60,Female,65298,Basic,Monthly,Bank Transfer,23,4,No,North,Yes
+997,64,Male,81112,Standard,Quarterly,PayPal,26,7,No,North,No
+998,62,Female,53429,Standard,Monthly,Bank Transfer,77,2,Yes,West,No
+999,35,Male,80200,Basic,Quarterly,PayPal,7,5,No,West,No
+1000,55,Male,101308,Basic,Monthly,Bank Transfer,79,4,No,South,Yes
