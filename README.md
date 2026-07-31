@@ -1,4 +1,3 @@
-﻿# customer-churn-data-preparation
 # Customer Churn Data Preparation
 
 ## 📋 Project Overview
